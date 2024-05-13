@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 66.652 s <<< FAILURE! - in TestSuite
+runTest(pageFactor.StandAloneTest)  Time elapsed: 9.356 s  <<< FAILURE!
+java.lang.AssertionError: expected [1] but found [2]
+	at pageFactor.StandAloneTest.runTest(StandAloneTest.java:70)
+

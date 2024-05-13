@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="pageFactor.ExtendReportWithListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Love(failed)">
+    <classes>
+      <class name="pageFactor.PageFactoringTest">
+        <methods>
+          <include name="ecommerceTest"/>
+          <include name="launchApplication"/>
+          <include name="testFail"/>
+        </methods>
+      </class> <!-- pageFactor.PageFactoringTest -->
+    </classes>
+  </test> <!-- Love(failed) -->
+</suite> <!-- Failed suite [Suite] -->
